@@ -1,0 +1,92 @@
+<!DOCTYPE CrossStudio_for_ARM_Session_File>
+<session>
+ <Bookmarks/>
+ <Breakpoints/>
+ <ExecutionProfileWindow/>
+ <Memory1>
+  <MemoryWindow autoEvaluate="0" addressText="" numColumns="8" sizeText="" dataSize="1" radix="16" name="autoquad" addressSpace="" />
+ </Memory1>
+ <Memory2>
+  <MemoryWindow autoEvaluate="0" addressText="" numColumns="8" sizeText="" dataSize="1" radix="16" name="autoquad" addressSpace="" />
+ </Memory2>
+ <Memory3>
+  <MemoryWindow autoEvaluate="0" addressText="" numColumns="8" sizeText="" dataSize="1" radix="16" name="autoquad" addressSpace="" />
+ </Memory3>
+ <Memory4>
+  <MemoryWindow autoEvaluate="0" addressText="" numColumns="8" sizeText="" dataSize="1" radix="16" name="autoquad" addressSpace="" />
+ </Memory4>
+ <Project>
+  <ProjectSessionItem path="autoquad" name="unnamed" />
+  <ProjectSessionItem path="autoquad;autoquad" name="unnamed" />
+  <ProjectSessionItem path="autoquad;autoquad;Source Files" name="unnamed" />
+ </Project>
+ <Register1>
+  <RegisterWindow openNodes="CPU - Current Context" binaryNodes="" hiddenNodes="" unsignedNodes="" visibleGroups="CPU - Current Context;CPU" decimalNodes="" octalNodes="" asciiNodes="" name="autoquad" />
+ </Register1>
+ <Register2>
+  <RegisterWindow openNodes="CPU - Current Context" binaryNodes="" hiddenNodes="" unsignedNodes="" visibleGroups="CPU - Current Context;CPU" decimalNodes="" octalNodes="" asciiNodes="" name="autoquad" />
+ </Register2>
+ <Register3>
+  <RegisterWindow openNodes="CPU - Current Context" binaryNodes="" hiddenNodes="" unsignedNodes="" visibleGroups="CPU - Current Context;CPU" decimalNodes="" octalNodes="" asciiNodes="" name="autoquad" />
+ </Register3>
+ <Register4>
+  <RegisterWindow openNodes="CPU - Current Context" binaryNodes="" hiddenNodes="" unsignedNodes="" visibleGroups="CPU - Current Context;CPU" decimalNodes="" octalNodes="" asciiNodes="" name="autoquad" />
+ </Register4>
+ <TargetWindow programAction="" uploadFileType="" programLoadAddress="" programSize="" uploadFileName="" uploadMemoryInterface="" programFileName="" uploadStartAddress="" programFileType="" uploadSize="" programMemoryInterface="" />
+ <TraceWindow>
+  <Trace enabled="Yes" />
+ </TraceWindow>
+ <Watch1>
+  <Watches active="1" update="Each Second" >
+   <Watchpoint linenumber="0" radix="1" name="navData,missionLeg" expression="navData,missionLeg" filename="" />
+   <Watchpoint linenumber="0" radix="11" name="navData.relativeAlt" expression="navData.relativeAlt" filename="" />
+   <Watchpoint evalMode="2" linenumber="0" numelements="16" evalType="0" radix="10" name="motorsData.thrust" expression="motorsData.thrust" filename="" />
+   <Watchpoint linenumber="0" radix="-1" name="navData.holdAlt" expression="navData.holdAlt" filename="" />
+   <Watchpoint linenumber="0" radix="-1" name="navData.holdDistance" expression="navData.holdDistance" filename="" />
+   <Watchpoint linenumber="0" radix="10" name="navData.holdSpeedAlt" expression="navData.holdSpeedAlt" filename="" />
+   <Watchpoint linenumber="0" radix="10" name="navData.mode" expression="navData.mode" filename="" />
+   <Watchpoint evalMode="2" linenumber="0" numelements="3" evalType="0" radix="10" name="cartosData.p" expression="cartosData.p" filename="" />
+   <Watchpoint evalMode="2" linenumber="0" numelements="3" evalType="0" radix="10" name="cartosData.pD" expression="cartosData.pD" filename="" />
+   <Watchpoint linenumber="0" radix="10" name="cartosData.throtSens" expression="cartosData.throtSens" filename="" />
+   <Watchpoint linenumber="0" radix="-1" name="cartosData.throtRate" expression="cartosData.throtRate" filename="" />
+   <Watchpoint evalMode="2" linenumber="0" numelements="18" evalType="0" radix="10" name="cartosData.traj.a" expression="cartosData.traj.a" filename="" />
+   <Watchpoint evalMode="2" linenumber="0" numelements="3" evalType="0" radix="10" name="cartosData.traj.s" expression="cartosData.traj.s" filename="" />
+   <Watchpoint evalMode="2" linenumber="0" numelements="3" evalType="0" radix="10" name="cartosData.traj.dsDt" expression="cartosData.traj.dsDt" filename="" />
+   <Watchpoint linenumber="0" radix="10" name="cartosData.traj.phase" expression="cartosData.traj.phase" filename="" />
+   <Watchpoint linenumber="0" radix="-1" name="cartosData.globalTargetN" expression="cartosData.globalTargetN" filename="" />
+   <Watchpoint linenumber="0" radix="-1" name="cartosData.globalTargetE" expression="cartosData.globalTargetE" filename="" />
+   <Watchpoint linenumber="0" radix="-1" name="cartosData.globalTargetA" expression="cartosData.globalTargetA" filename="" />
+   <Watchpoint linenumber="0" radix="-1" name="simu.alt" expression="simu.alt" filename="" />
+   <Watchpoint linenumber="0" radix="-1" name="simu.yaw" expression="simu.yaw" filename="" />
+   <Watchpoint linenumber="0" radix="-1" name="simu.x[0]" expression="simu.x[0]" filename="" />
+   <Watchpoint linenumber="0" radix="-1" name="simu.x[1]" expression="simu.x[1]" filename="" />
+   <Watchpoint linenumber="0" radix="-1" name="simu.x[2]" expression="simu.x[2]" filename="" />
+  </Watches>
+ </Watch1>
+ <Watch2>
+  <Watches active="0" update="Never" />
+ </Watch2>
+ <Watch3>
+  <Watches active="0" update="Never" />
+ </Watch3>
+ <Watch4>
+  <Watches active="0" update="Never" />
+ </Watch4>
+ <Files>
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/home/srinath/cartosFinal/autoquad-read-only/onboard/nav.h" y="52" path="/home/srinath/cartosFinal/autoquad-read-only/onboard/nav.h" left="0" selected="0" name="unnamed" top="29" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/home/srinath/cartosFinal/autoquad-read-only/onboard/aq_mavlink.c" y="231" path="/home/srinath/cartosFinal/autoquad-read-only/onboard/aq_mavlink.c" left="0" selected="0" name="unnamed" top="847" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/home/srinath/cartosFinal/autoquad-read-only/hils/simu.c" y="714" path="/home/srinath/cartosFinal/autoquad-read-only/hils/simu.c" left="0" selected="0" name="unnamed" top="704" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/home/srinath/cartosFinal/autoquad-read-only/onboard/aq.h" y="31" path="/home/srinath/cartosFinal/autoquad-read-only/onboard/aq.h" left="0" selected="0" name="unnamed" top="22" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/home/srinath/cartosFinal/autoquad-read-only/onboard/aq_init.c" y="80" path="/home/srinath/cartosFinal/autoquad-read-only/onboard/aq_init.c" left="0" selected="0" name="unnamed" top="63" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/home/srinath/cartosFinal/autoquad-read-only/onboard/nav.c" y="622" path="/home/srinath/cartosFinal/autoquad-read-only/onboard/nav.c" left="0" selected="0" name="unnamed" top="619" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/home/srinath/cartosFinal/autoquad-read-only/onboard/main_ctl.c" y="30" path="/home/srinath/cartosFinal/autoquad-read-only/onboard/main_ctl.c" left="0" selected="1" name="unnamed" top="24" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/home/srinath/cartosFinal/autoquad-read-only/onboard/config_default.h" y="191" path="/home/srinath/cartosFinal/autoquad-read-only/onboard/config_default.h" left="0" selected="0" name="unnamed" top="186" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/home/srinath/cartosFinal/autoquad-read-only/onboard/filer.c" y="460" path="/home/srinath/cartosFinal/autoquad-read-only/onboard/filer.c" left="0" selected="0" name="unnamed" top="444" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/home/srinath/cartosFinal/autoquad-read-only/STM32F4xx_DSP_StdPeriph_Lib_V1.3.0/Libraries/CMSIS/Include/arm_math.h" y="5871" path="/home/srinath/cartosFinal/autoquad-read-only/STM32F4xx_DSP_StdPeriph_Lib_V1.3.0/Libraries/CMSIS/Include/arm_math.h" left="0" selected="0" name="unnamed" top="5863" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/home/srinath/cartosFinal/autoquad-read-only/onboard/nav_ukf.c" y="306" path="/home/srinath/cartosFinal/autoquad-read-only/onboard/nav_ukf.c" left="0" selected="0" name="unnamed" top="298" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/home/srinath/cartosFinal/autoquad-read-only/onboard/config.c" y="803" path="/home/srinath/cartosFinal/autoquad-read-only/onboard/config.c" left="0" selected="0" name="unnamed" top="797" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/home/srinath/cartosFinal/autoquad-read-only/onboard/util.c" y="48" path="/home/srinath/cartosFinal/autoquad-read-only/onboard/util.c" left="0" selected="0" name="unnamed" top="40" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="/home/srinath/cartosFinal/autoquad-read-only/hils/simu.h" y="16" path="/home/srinath/cartosFinal/autoquad-read-only/hils/simu.h" left="0" selected="0" name="unnamed" top="3" />
+ </Files>
+ <ARMCrossStudioWindow activeProject="autoquad" autoConnectTarget="USB CrossConnect for ARM" debugSearchFileMap="" fileDialogInitialDirectory="/home/srinath/cartosFinal/autoquad-read-only/hils" fileDialogDefaultFilter="*.h" autoConnectCapabilities="266111" debugSearchPath="" buildConfiguration="THUMB Debug" />
+</session>
